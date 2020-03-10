@@ -1,0 +1,94 @@
+@media(min-width: 1000px){
+.header_container{
+	height: 70px;
+	display: flex;
+	flex-direction: row;
+	background-color: lightskyblue;
+	flex-wrap: wrap;
+
+}
+/* Dropdown Button */
+.dropbtn {
+  background-color: lightblue;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  box-shadow: 0px 0px lightskyblue;
+  height: 70px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+	width: 10%
+  position: relative;
+  display: inline-block;
+}
+.title{
+	width: 90%
+
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #F0F8FF;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #385d96;}
+body{
+	background-color: #F0F8FF;
+}
+.table{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+.row{
+	flex-wrap: wrap;
+	display: flex;
+	flex-direction: row;
+	border-bottom: groove;
+}
+.number{
+	width: 5%;
+}
+.Exercise{
+	width: 10%;
+}
+.Topic{
+	width: 10%;
+}
+.Weight{
+	width: 10%;
+}
+.DueDate{
+	width: 55%;
+}
+.Solution{
+	width: 10%;
+}
+.QA{
+	text-indent: 10px;
+	margin-top: 5px;
+}
+.assignments{
+
+	background-color: #F0F8FF;
+}
+}
